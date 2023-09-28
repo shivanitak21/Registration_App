@@ -1,0 +1,46 @@
+/* RegistrationForm.css */
+
+/* Center the form vertically and horizontally */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+  }
+  
+  .form-container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+  }
+  
+  /* Style the submit button */
+  .btn-primary {
+    width: 100%;
+  }
+  
+  /* Add some spacing between elements */
+  .form-container > *:not(h2) {
+    margin-top: 10px;
+  }
+  
+  /* Style error messages */
+  .error-message {
+    color: #ff0000;
+  }
+  
